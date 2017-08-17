@@ -1,0 +1,8 @@
+en:
+  activemodel: &errors
+    errors:
+      messages:
+        invalid_iban: 'is invalid'
+        missing_iban: 'is missing'
+  activerecord:
+    <<: *errors
